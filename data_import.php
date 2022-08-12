@@ -8,7 +8,7 @@ $mysqli=new mysqli("localhost","root","root","assignment");
     ORDER BY weather_when DESC limit 1";
     $result = $mysqli -> query($sqli);
 
-    // If 0 record found
+    /// If 0 record found
 
     if ($result->num_rows == 0) {
     $url = 'https://api.openweathermap.org/data/2.5/weather?q=' . $_GET['city'] . '&unit=metric&appid=f874fc426a940c05f1620eb6f9f9837d';
