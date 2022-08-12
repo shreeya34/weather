@@ -1,7 +1,7 @@
 <?php
 include ('data_import.php');
 $city = $_GET['city'];
-$mysqli=new mysqli("localhost","root","","assignment");
+$mysqli=new mysqli("localhost","root","password","assignment");
 if($mysqli->connect_error){
     echo "Failed to connect to MySQL:".$mysqli->connect_error;
     exit();

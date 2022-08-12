@@ -25,7 +25,7 @@
     <script>
     //fetch from weather api
     //https://api.openweathermap.org/data/2.5/weather?q=denver&units=metric&appid=f874fc426a940c05f1620eb6f9f9837d
-    axios.get(`http://localhost/assignment/my_api.php?city=denver`) 
+    axios.get(`./my_api.php?city=denver`) 
         .then(function (response) {
     
             console.log(response); 

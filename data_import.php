@@ -1,5 +1,5 @@
 <?php
-$mysqli=new mysqli("localhost","root","root","assignment");
+$mysqli=new mysqli("localhost","root","password","assignment");
 // Select weather data for given parameters
     $sqli = "SELECT *
     FROM weather
